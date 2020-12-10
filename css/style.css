@@ -38,7 +38,6 @@ ul li a:hover {
 
 p { 
 	color: #00B4D8;
-        margin-left: 5px;
-        margin-right: 5px;
-        text-decoration: arial, sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
 }
