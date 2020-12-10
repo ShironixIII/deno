@@ -4,8 +4,9 @@
 }
 
 body {
-				background-color: #f2ccff;
-				}
+   background-color: #f2ccff;
+   background-image: url("fond.jpg");
+}
 .oof { 
   color: white;
   text-align: center;
