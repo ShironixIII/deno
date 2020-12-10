@@ -4,14 +4,14 @@
 }
 
 .oof { 
-  color: white;
+  color: red;
   text-align: center;
   font-family: courier; 
   text-transform: capitalize;
 }												
 
 .class2 { 
-  color: white;
+  color: red;
   font-family: courier; 
   text-transform: capitalize;
 }
