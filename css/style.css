@@ -5,7 +5,8 @@
 
 body {
    background-color: #f2ccff;
-   background-image: url("fond.jpg");
+   background-image: url("fond.jpg") no-repeat center fixed; 
+   -webkit-background-size: cover;
 }
 .oof { 
   color: white;
