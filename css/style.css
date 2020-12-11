@@ -4,23 +4,20 @@
 }
 
 body {
-	background-color: #DEE2FF;
-}
+				background-color: #DEE2FF;
+				}
 
-p { 
+.description {
+				margin: 5px;		
 				color: #47475e;
 			 padding: 5px;
 			 font-size: 20px;				
 	  	line-height: 50px;				
-}
-
-.description {
-				text-align: center;
+	  	text-align: center;
 }
 
 nav {
-				width: 240%;		
-				padding: 5px;				
+				width: 100%;		
 				height: 70px;			
 				background-color: #8E9AAF;
 }
@@ -30,14 +27,14 @@ nav p {
   font-family: arial;		
 		color: #222;				
 		font-size: 24px;										
-		line-height: 54px;				
+		line-height: 45px;				
 		float: left;				
 		}
 a,
 button {
   font-family: "Poppins", sans-serif;
   height: 20px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .hautdepage {
@@ -58,17 +55,17 @@ button {
 }
 
 .info ul,
-.cmds ul,
-.contact ul {
+.cmds ul {
   margin-top: 10px;
   position: absolute;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  width: 200px;
+  width: 120px;
   height: 200px;
   background: white;
+  right: 4px;
   left: 0px;
   list-style: none;
   border-radius: 5px;
@@ -112,17 +109,6 @@ button {
   text-decoration: none;
 }
 
-.shiro {
-		background: none;
-		margin-bottom: 300px;
-  text-decoration: none;
-  border: none;
-  color: #4b0016;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-}
 
 .info button:focus + ul,
 .cmds button:focus + ul,
@@ -130,4 +116,24 @@ button {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0px);
+}  
+
+.contact ul {
+				margin-top: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  height: 200px;
+  background: white;
+  right: 0px;
+  list-style: none;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-event: none;
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
 }
+
