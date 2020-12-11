@@ -9,9 +9,10 @@ body {
 
 p { 
 				color: #47475e;
-			 padding: 5px;
+			 padding: 0px;
 			 font-size: 20px;				
-	  	line-height: 50px;				
+	  	line-height: 50px;	
+text-align: center;			
 }
 nav {
 				width: 240%;		
