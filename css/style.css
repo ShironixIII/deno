@@ -55,18 +55,18 @@ button {
 .info ul,
 .cmds ul,
 .contact ul {
-  margin-top: 30px;
+  margin-top: 10px;
   position: absolute;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  width: 300px;
+  width: 200px;
   height: 200px;
-  background: white;  
+  background: white;
+  left: 0px;
   list-style: none;
-  text-decoration: none;
-    border-radius: 5px;
+  border-radius: 5px;
   opacity: 0;
   pointer-event: none;
   transform: translateY(-10px);
